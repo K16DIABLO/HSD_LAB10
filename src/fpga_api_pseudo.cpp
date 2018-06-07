@@ -51,7 +51,10 @@ const float* FPGA::run()
 void FPGA::largeMV(const float* large_mat, const float* input,
 		float* output, int M, int N)
 {
-	float* vec = this->vector();
+    // write down your code here.
+
+    float* vec = this->vector();
     float* mat = this->matrix();
 	
+    // write down your code here.	
 }
